@@ -26,6 +26,8 @@ node index.js _input-filename_ _[output-filename]_ _[options]_
 
 node index.js _input-path_ _[output-path]_ _[options]_
 
+_If input-filename is an URL, it will be downloaded, decompressed and converted in multiple json conversion mode._
+
 _If input-filename haven't '.json' extension it is managed as zip file, decompressed and converted in multiple json conversion mode._
 
 Output folders will be created if not exists.
@@ -41,7 +43,7 @@ Output folders will be created if not exists.
 -v: Verbose output _(default: true)_<br>
 
 ##### Github auto-push options
-_If all git options are set, the converted files are automatically pushed on Github._
+_If all git options are sets, the converted files are automatically pushed on Github._
 
 -gitrepository: Destination Github repository<br>
 -gitbranch: Destination Github branch<br>
