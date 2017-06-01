@@ -1,0 +1,19 @@
+{
+  "name": "hubdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "got": "^6.7.1",
+    "json-markdown": "git+https://github.com/pasuslab/json-markdown",
+    "nodegit": "^0.17.0",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
